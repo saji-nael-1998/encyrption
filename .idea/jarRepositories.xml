@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bisan-release" />
+      <option name="name" value="bisan-release" />
+      <option name="url" value="http://artifactory.bisan.com/artifactory/bisan-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bisan-dist" />
+      <option name="name" value="bisan-dist" />
+      <option name="url" value="http://artifactory.bisan.com/artifactory/bisan-dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="artifactory-webutils" />
+      <option name="name" value="webutils" />
+      <option name="url" value="http://artifactory.bisan.com/artifactory/webutils-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ext-misc" />
+      <option name="name" value="ext-misc" />
+      <option name="url" value="http://artifactory.bisan.com/artifactory/ext-misc" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ext-lib" />
+      <option name="name" value="ext-lib" />
+      <option name="url" value="http://artifactory.bisan.com/artifactory/ext-lib" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mavencentral" />
+      <option name="name" value="Jboss 3rd Party" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/" />
+    </remote-repository>
+  </component>
+</project>
