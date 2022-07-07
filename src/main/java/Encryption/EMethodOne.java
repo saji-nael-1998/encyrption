@@ -1,6 +1,7 @@
 package Encryption;
 
 import BinaryTree.BinaryTree;
+import utils.BinaryDecimal;
 
 public class EMethodOne implements IEncryption {
   @Override
@@ -11,22 +12,21 @@ public class EMethodOne implements IEncryption {
 
       //step 1
       //convert from decimal to binary
-      String binaryCode = Integer.toBinaryString(currentChar);
-
+      String binaryCode = BinaryDecimal.decimaToBinary(currentChar);
       //step 2
       //shuffle binary code
       BinaryTree binaryTree = new BinaryTree();
-
       for (int y = 0; y < binaryCode.length(); y++) {
         char currentBit = binaryCode.charAt(y);
-        binaryTree.add(currentBit );
+        binaryTree.add(currentBit);
       }
       //set the new binary code
       binaryCode = binaryTree.preorder();
-
       //step 3
       // convert from binary to decimal
-      ciphertext += (char) Integer.parseInt(binaryCode, 2);
+
+
+      ciphertext += (char) BinaryDecimal.binaryToDecimal(binaryCode);
     }
     return ciphertext;
   }

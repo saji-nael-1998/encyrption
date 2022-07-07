@@ -2,14 +2,17 @@ import Decryption.DMethodOne;
 import Decryption.IDecryption;
 import Encryption.IEncryption;
 import Encryption.EMethodOne;
+import utils.BinaryDecimal;
 
 public class Main {
   public static void main(String[] args) {
     IEncryption preorder=new EMethodOne();
     String plaintext="A";
-    System.out.println(preorder.encrypt(plaintext));
+    String ciphertext=preorder.encrypt(plaintext);
+    System.out.println(ciphertext);
 
     IDecryption pre=new DMethodOne();
-    System.out.println(pre.decrypt(preorder.encrypt(plaintext)));
+    System.out.println(pre.decrypt(ciphertext));
+
   }
 }
